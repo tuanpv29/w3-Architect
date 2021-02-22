@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #ccc;
+  --light-grey: #f1f1f1;
+}
+
+body {
+  color: var(--black);
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.navbar {
+  letter-spacing: 4px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.bg-light {
+  background-color: var(--white) !important;
+}
+
+.navbar-light {
+  color: var(--black) !important;
+}
+
+.brand {
+  padding: 8px 16px;
+  color: var(--black);
+}
+
+.brand:hover {
+  color: var(--black);
+  background-color: var(--grey);
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--black);
+  padding: 8px 16px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: var(--grey);
+}
+
+#bg-img {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: var(--light-grey);
+  letter-spacing: 4px;
+}
+
+.center h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.center #logo{
+  padding: 8px 16px;
+  background-color: var(--black);
+  opacity: 0.75;
+}
+
+.padding-sm {
+  padding: 8px 32px;
+}
+
+.padding-lg {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.title {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.template {
+  position: relative;
+}
+
+.title-template {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 16px;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+div[class*="col"] {
+  padding: 0 8px;
+  margin-bottom: 16px;
+}
+
+#about .btn {
+  display: block;
+  width: 100%;
+  color: var(--black);
+  background-color: var(--light-grey);
+  border-radius: 0;
+}
+
+#about .btn:hover {
+  background-color: var(--grey);
+}
+
+#contact input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc !important;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#contact button {
+  color: var(--white);
+  background-color: var(--black);
+  border-radius: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border: none;
+}
+
+#contact button:hover {
+  color: var(--black);
+  background-color: var(--grey);
+}
+
+footer {
+  color: var(--white);
+  background-color: var(--black);
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+footer a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #4CAF50!important;
+}
